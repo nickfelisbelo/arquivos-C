@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <locale.h>
+#include <stdlib.h>
 int main (){
+    setlocale(LC_ALL,"");
     char cpf[15], nome[200], end[20000], objeto[300];
     int opcao, opcao1, comida, bebida, dias;
     float valor, pagar;
-    printf("O que deseja:\n1-Check-in\n2-Serviço de quarto\n3-Fazer pedido\n");
+    do{
+    printf("O que deseja:\n1-Check-in\n2-Serviço de quarto\n3-Fazer pedido\n0-Sair\n");
     scanf("%d", &opcao);
     switch(opcao){
         case 1:
@@ -83,9 +86,19 @@ int main (){
                   break;
                   case 4:
                   printf("Estamos preparando seu coquetel. Por favor, aguarde.");
+                  default:
+                  printf("Erro!");
               }
               break;
+              
+              default:
+              printf("Erro. Tente novamente.");
          }
-        }
+       
+    }
+    printf("\nDigite\n1-Voltar ao menu principal\n0-Sair\n");
+    scanf("%d", &opcao);
+    system("clear");
+    } while(opcao == 1);
         return 0;
     }
