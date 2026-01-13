@@ -21,7 +21,11 @@ int main () {
 	setlocale(LC_ALL,"");
 	int opcao;
 	do {
-		printf("O que deseja:\n1-Check-in\n2-Servico de quarto\n3-Fazer pedido\n0-Sair\n");
+		printf("O que deseja:\n");
+		printf("1-Check-in\n");
+		printf("2-Servico de quarto\n");
+		printf("3-Fazer pedido\n");
+		printf("0-Sair\n");
 		scanf("%d", &opcao);
 		if (opcao > 3 || opcao < 0) {
 			printf("Erro! Tente Novamente");
@@ -44,7 +48,9 @@ int main () {
 			}
 
 		}
-		printf("\nDigite\n1-Voltar ao menu principal\n0-Sair\n");
+		printf("\nDigite\n");
+		printf("1-Voltar ao menu principal\n");
+		printf("0-Sair\n");
 		scanf("%d", &opcao);
 		system("clear");
 	} while(opcao != 0);
@@ -52,16 +58,26 @@ int main () {
 }
 void registro() {
 	system("clear");
-	printf("Faca o check-in\n");
-	printf("Insira\nNome:\n");
+	printf("Faça o check-in\n");
+	printf("Insira\n");
+	printf("Nome:\n");
 	scanf (" %[^\n]", check[numCheckin].nome);
 	printf("Endereco:\n");
 	scanf(" %[^\n]", check[numCheckin].end);
 	printf("CPF:\n");
 	scanf("%s",check[numCheckin].cpf);
 	do {
-		printf("Voce gostaria de um quarto para quantos hóspedes?(máximo de 7 pessoas)\nCaso queira sair digite 0\n");
-		printf("Valor dos quartos por pessoa:\n1- 200\n2- 290\n3- 380\n4- 470\n5- 560\n6- 650\n6- 740\n7- 830\n ");
+		printf("Voce gostaria de um quarto para quantos hóspedes?(máximo de 7 pessoas)\n");
+		printf("Caso queira sair digite 0\n");
+		printf("Valor da diaria por pessoa:\n");
+		printf("1- R$ 200,00\n");
+		printf("2- R$ 290,00\n");
+		printf("3- R$ 380,00\n");
+		printf("4- R$ 470,00\n");
+		printf("5- R$ 560,00\n");
+		printf("6- R$ 650,00\n");
+		printf("6- R$ 740,00\n");
+		printf("7- R$ 830,00\n");
 		scanf("%d", &check[numCheckin].pessoas);
 		if(check[numCheckin].pessoas = 0) {
 			break;
@@ -84,7 +100,11 @@ void registro() {
 
 void servico() {
 	int opcao;
-	printf("Qual serviço deseja:\n1-Arrumar o quarto\n2-Manutenção\n3-Trazer um objeto\n0-Nenhuma das opções\n");
+	printf("Qual serviço deseja:\n");
+	printf("1-Arrumar o quarto\n");
+	printf("2-Manutenção\n");
+	printf("3-Trazer um objeto\n");
+	printf("0-Nenhuma das opções\n");
 	scanf("%d",&opcao);
 	switch(opcao) {
 	case 1:
@@ -110,7 +130,10 @@ void servico() {
 void pedido() {
 	int opcao;
 	do {
-		printf("O que deseja:\n1-Alimento\n2-Bebida\n0-Sair\n");
+		printf("O que deseja:\n");
+		printf("1-Alimento\n");
+		printf("2-Bebida\n");
+		printf("0-Sair\n");
 		scanf("%d", &opcao);
 	} while (opcao > 2 && opcao < 0);
 	switch(opcao) {
@@ -129,7 +152,11 @@ void bebida() {
 	int bebida, quant;
 	float valor;
 	do {
-		printf("SELECIONE:\n1-Agua R$2,00\n2-Refrigerante  R$5,00\n3-Suco natural  R$4,00\n4-Coquetel  R$14,00\n");
+		printf("SELECIONE:\n");
+		printf("1-Agua R$ 2,00\n");
+		printf("2-Refrigerante  R$ 5,00\n");
+		printf("3-Suco natural  R$ 4,00\n");
+		printf("4-Coquetel  R$ 14,00\n");
 		scanf("%d", &bebida);
 		printf("Digite a quantidade:\n");
 		scanf("%d", &quant);
@@ -156,7 +183,12 @@ void comida() {
 	int comida, opcao, quant;
 	float valor;
 	do {
-		printf("Qual comida deseja:\n1-Café da manha\n2-Doces\n3-Almoço\n4-Jantar\n0-Sair\n");
+		printf("Qual comida deseja:\n");
+		printf("1-Café da manha\n");
+		printf("2-Doces\n");
+		printf("3-Almoço\n");
+		printf("4-Jantar\n");
+		printf("0-Sair\n");
 		scanf("%d", &comida);
 		if (comida > 0 && comida < 5) {
 			printf("CardC!pio:\n");
@@ -164,7 +196,10 @@ void comida() {
 		switch(comida) {
 		case 1:
 			do {
-				printf("1- Panqueca  R$5,00\n2- Pão com Omelete  R$7,00\n3- Lanche Natural de Baguete e Presunto R$12,00\n0- Voltar\n");
+				printf("1- Panqueca  R$5,00\n");
+	        	printf("2- Pão com Omelete  R$7,00\n");
+        		printf("3- Lanche Natural de Baguete e Presunto R$12,00\n");
+        		printf("0- Voltar\n");
 				scanf("%d", &opcao);
 				printf("Digite a quantidade desejada:\n");
 				scanf("%d", &quant);
@@ -191,7 +226,11 @@ void comida() {
 			break;
 		case 2:
 			do {
-				printf("1- Doce de AbC3bora  R$3,00\n2- Bala de Yorgut  R$0,10\n3- Doce de Leite  R$5,00\n4- PaC'oca  R$0,50\n0-Voltar\n");
+				printf("1- Doce de Abobora  R$ 3,00\n");
+        		printf("2- Bala de Yorgut  R$ 0,10\n");
+        		printf("3- Doce de Leite  R$ 5,00\n");
+        		printf("4- Paçoca  R$ 0,50\n");
+        		printf("0- Voltar\n");
 				scanf("%d", &opcao);
 				printf("Digite a quantidade desejada:\n");
 				scanf("%d", &quant);
@@ -222,7 +261,10 @@ void comida() {
 			break;
 		case 3:
 			do {
-				printf("1- Arroz, Feijão e Lazanha  R$45,00\n2- Macarrão ao molho vermelho  R$37,00\n3- Arroz, Feijoada e carne suína  R$32,00\n0- Voltar\n");
+				printf("1- Arroz, Feijão e Lazanha  R$ 45,00\n");
+        		printf("2- Macarrão ao molho vermelho  R$ 37,00\n");
+        		printf("3- Arroz, Feijoada e carne suína  R$ 32,00\n");
+        		printf("0- Voltar\n");
 				scanf("%d", &opcao);
 				printf("Digite a quantidade desejada:\n");
 				scanf("%d", &quant);
@@ -249,7 +291,10 @@ void comida() {
 			break;
 		case 4:
 			do {
-				printf("1- Macarrão Carbonara  R$55,00\n2- Macarrão ao molho branco  R$47,00\n3- Nhoque de batata e parmessão e Macarrão R$52,00\n0- Voltar\n");
+				printf("1- Macarrão Carbonara  R$ 55,00\n");
+        		printf("2- Macarrão ao molho branco  R$ 47,00\n");
+        		printf("3- Nhoque de batata e parmessão e Macarrão R$ 52,00\n");
+        		printf("0- Voltar\n");
 				scanf("%d", &opcao);
 				printf("Digite a quantidade desejada:\n");
 				scanf("%d", &quant);
