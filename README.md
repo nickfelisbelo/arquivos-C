@@ -1,10 +1,27 @@
 # Meus arquivos em C
 ## Os arquivos estão listados abaixo:
-- 
--
-- 
-- 
--
-- 
--  
-- 
+- [Arquivo 1](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main.c) - Somar o valor de a e b (a+b) e dividir por c (/c)
+- [Arquivo 2](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(1).c) - Digitar seu nome, seu salario a porcentagem do aumento(ex: 20), calcular e imprimir o reajuste
+- [Arquivo 3](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(2).c) - Digitar a quantidade de alqueires(250 toneladas de café por alqueire) e de caminhões(carrega até 18 toneladas) e calcular a quantidade de viagens
+- [Arquivo 4](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(3).c) - Calcular a quantidade de pontos de pontos que o time x fez (empate = 1 ponto; vitória = 3 pontos)
+- [Arquivo 5](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(4).c) - Calcular a média de 4 notas
+- [Arquivo 6](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(5).c) - Mostrar a tabuada do numero escolhido
+- [Arquivo 7](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(6).c) - Mostrar se o número é positivo, negativo ou zero
+- [Arquivo 8](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(7).c) - Mostrar se o número é par ou ímpar
+- [Arquivo 9](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(8).c) - Mostrar qual o maior e o menor número de 2 números escolhidos
+- [Arquivo 10](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(9).c) - Ver se o ano é bissexto ou comum
+- [Arquivo 11](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(10).c) - Ver se o cidadão pode ou não votar, ou se o voto é opcional
+- [Arquivo 12](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(11).c) - Digitar o perimetro dos lados de um triangulo e classificalos(isóseles, equilatero ou escaleno)
+- [Arquivo 13](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(12).c) - Ver o valor da compra e vlaor dela com o desconto
+- [Arquivo 14](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(13).c) - Calcular o IMC e falar o status da saúde do corpo(obeso, saudável, abaixo do peso)
+- [Arquivo 15](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(14).c) - Ver qual lado é maior ou se todos são iguais
+- [Arquivo 16](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(15).c) - Escolher uma matéria(switch/case) e ver a média de 4 matérias, mostrar o conceito e o status do aluno(aprovado ou reprovado)
+- [Arquivo 17](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(16).c) - Escolher o dia da semana e dizer qual é o dia(switch/case)
+- [Arquivo 18](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(17).c) - Calculadora simples(Adição, Subtração, Divisão, Multiplicação)
+- [Arquivo 19](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(18).c) - Digitar o mês e printar qual o mês
+- [Arquivo 20](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(19).c) - Converter moedas
+- [Arquivo 21](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(20).c) - Dizer qual a estaçã do ano
+- [Arquivo 22](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/main%20(21).c) - Sistema de hamburgueria
+- [Arquivo 23](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/atividade5carnaval.c) - Ver diversos fatores e calcular a quantidade de música que será possível tocar durante um desfile
+- [Arquivo 24](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/4%20materias%20e%20media.c) - Calculo da média de 4 matérias
+- [Hotel](https://github.com/nickfelisbelo/arquivos-C/blob/main/Arquivos%20C/hotel.c) - Sistema hotel(juntar conhecimento de todo 1° semestre e fazer este projeto)
